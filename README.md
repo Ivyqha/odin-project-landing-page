@@ -1,2 +1,4 @@
 # odin-project-landing-page
-Using the skills i have learnt so far to create an entire web page from a design provided by the Odin Project course. 
+Creating an entire web page (from scratch) based off a design provided by the Odin Project course.
+
+For this project, i decided to use this website to showcase my photography in the form of a website diary.
