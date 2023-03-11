@@ -3,15 +3,15 @@
     padding: 0;
   } 
 
+/* Hero text edit begins */ 
 .hero{
     background-color: #1F2937;
-    height: 550px;
+    height: 600px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .link {
     color: #E5E7EB;
-    /* font-size: 24px; */
     text-decoration: none; 
 }
 
@@ -20,8 +20,7 @@ ul{
     display: flex;
     gap: 30px;
     justify-content: flex-end;
-   /* margin:0; 
-    padding: 30px 200px 30px 0; */
+
 }
 
 .header{
@@ -37,19 +36,24 @@ ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 .title {
     font-size: 80px;
     font-weight: bolder;
     color: #F9FaF8; 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.text{ 
-    font-size: 20px; 
-    color: #E5E7EB; 
-    width: 500px;
-    
+.text-2,
+.text { 
+     color: #E5E7EB;  
+}
+
+.text{
+    font-size: 22px; 
+}
+
+.text-2{
+    font-size:20px;
 }
 
 .sign-up{ 
@@ -60,16 +64,54 @@ ul{
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 1;
     align-items: center;
-    margin: 30px 250px;
+    margin: 0px 250px;
 }
 
 
 .profile {
-    width: 275px;
-    height: 275px;
-    border-radius: 275px;  
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;  
+    margin: 50px;
    
 } 
 
+/* information text begins */
+
+.information{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subheader{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    padding: 50px;
+    text-align: center;
+}
+
+.photo { 
+    width: 270px;
+    height: 175px;
+    object-fit: cover;
+    object-position: 0 65%;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.caption{ 
+    padding: 20px;
+}
+
+.container_2 { 
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+    font-size: 20px; 
+    color: rgb(83, 82, 82);
+    flex-grow:1;
+    
+    
+}
